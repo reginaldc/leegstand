@@ -42,7 +42,7 @@ while var == 1:
 			msg['Subject'] = 'wijziging leegstandsregister'
 			me = 'reginald.carlier@ingelmunster.be'
 			you = 'reginald.carlier@ingelmunster.be'
-			s = smtplib.SMTP('xx.xxx.x.xxx')
+			s = smtplib.SMTP('xxx.xxx.xxx.xxx')
 			s.set_debuglevel(True)
 			#pdb.set_trace()
 			s.sendmail(me, you, msg.as_string())
