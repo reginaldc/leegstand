@@ -10,7 +10,7 @@ import filecmp
 import pdb
 import subprocess
 
-
+#onderstaande URL werkt niet meer - script dient alleen als documentatie
 leegstandsregister = 'http://www.huisvesting-regio-izegem.be/websites/35/uploads/html/inventarislijst_ingelmunster.html'
 
 var = 1
@@ -51,4 +51,5 @@ while var == 1:
 			os.remove('lsbup.html')
 			os.rename('nieuw.html','lsbup.html')
 		subprocess.call(['python','html_naar_csv.py'])
+
 
